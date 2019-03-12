@@ -1,0 +1,40 @@
+link(rel='stylesheet', href='css/bootstrap.css', type='text/css')
+p1 navigation testing123
+.top-nav.w3-agiletop
+      .container
+        .navbar-header.w3llogo
+          button.navbar-toggle.collapsed(type='button' data-toggle='collapse' data-target='#bs-example-navbar-collapse-1')
+            | Menu
+          h1
+            a(href='index.html') Attire
+        // Collect the nav links, forms, and other content for toggling
+        #bs-example-navbar-collapse-1.collapse.navbar-collapse
+          .w3menu.navbar-left
+            ul.nav.navbar
+              li
+                a.active(href='index.html') Home
+              li
+                a(href='about.html') About
+              li
+                a(href='gallery.html') Gallery
+              li
+                a.dropdown-toggle(href='#' data-toggle='dropdown' role='button' aria-haspopup='true' aria-expanded='false')
+                  span(data-letters='Pages') Pages
+                  span.caret
+                ul.dropdown-menu
+                  li
+                    a(href='icons.html') Icons
+                  li
+                    a(href='typo.html') Typography
+              li
+                a(href='contact.html') Contact
+          .w3ls-bnr-icons.social-icon.navbar-right
+            a.social-button.twitter(href='#')
+              i.fa.fa-twitter
+            a.social-button.facebook(href='#')
+              i.fa.fa-facebook
+            a.social-button.google(href='#')
+              i.fa.fa-google-plus
+            a.social-button.dribbble(href='#')
+              i.fa.fa-dribbble
+          .clearfix  
